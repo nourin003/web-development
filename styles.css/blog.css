@@ -62,6 +62,9 @@ body{
     border: 2px solid red;
     margin: 0 auto;
     margin-top: 74px;
+    background: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    
 }
 .development-content{
     width: 852px;
@@ -73,6 +76,7 @@ body{
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    margin-top: 60px;
 
 }
 .development-content h2{
@@ -177,4 +181,52 @@ body{
 
 
 /*second coding container start here*/
+.second-coding-container{
+    width: 946px;
+    height: 336px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+}
+.second-coding-content{
+    width: 477px;
+    height: 220px;
+}
+.second-coding-content h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.second-coding-content p{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.second-coding-content button{
+    margin-top: 32px;
+    color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    padding: 12px 20px 12px 20px;
+    font-size:20px ;
+    font-weight: 600;
+    font-family: Azeret Mono;
+}
+.second-coding-image{
+    width: 259.56px;
+    height: 217.01px;
+}
+/*inspiration container section start here*/
+.inspiration-container{
+    width:1140px ;
+    height: 775px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
                     
