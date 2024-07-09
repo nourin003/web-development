@@ -260,6 +260,21 @@ body{
     padding-right: 144px;
 
 }
+/*target section start here*/
+.target-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:1140px ;
+    height: 460px;
+    border: 2px solid red;
+    margin: 0 auto;
+    
+    
+
+}
+
 
 
 
