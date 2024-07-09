@@ -36,7 +36,7 @@ body{
 }
 .banner-section p{
     margin-bottom: 32px;
-    color: rgb(13, 19, 33);
+    color: rgb(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -84,12 +84,12 @@ body{
 }
 .development-content p{
     margin-top: 24px;
-    color: rgb(13, 19, 33);
+    color: rgb(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
     
 }
-/*first-coding-container*/
+/*first coding container start here*/
 .first-coding-container{
     width: 946px;
     height: 336px;
@@ -112,15 +112,69 @@ body{
 
 }
 .workshop-content p{
-    color: rgb(13, 19, 33);
+    color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 16px;
+}
+.workshop-content button{
+    margin-top: 32px;
+    color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    padding: 12px 20px 12px 20px;
+    font-size:20px ;
+    font-weight: 600;
+    font-family: Azeret Mono;
 }
 .first-coding-image{
     width: 259.56px;
     height: 217.01px;
 }
+/*modern web container section star here*/
+.modern-web-container{
+    width: 946px;
+    height: 336px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 48.8px;
+    padding: 48px;
+}
+.modern-web-content{
+    width: 477px;
+    height: 220px;
+}
+.modern-web-content h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.modern-web-content p{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.modern-web-content button{
+    margin-top: 32px;
+    color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    padding: 12px 20px 12px 20px;
+    font-size:20px ;
+    font-weight: 600;
+    font-family: Azeret Mono;
+}
+.modern-web-content-image{
+    width: 259.56px;
+    height: 217.01px;
+}
 
 
+/*second coding container start here*/
                     
