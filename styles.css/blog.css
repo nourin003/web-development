@@ -31,6 +31,7 @@ body{
     font-family: Azeret Mono;
     font-size: 45px;
     font-weight: 400;
+    margin-top: 25px;
     margin-bottom: 24px;
     text-align: center;
 }
@@ -41,10 +42,11 @@ body{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
+    margin-top: 20px;
     text-align: center;
 
 }
-.banner-section button{
+/*.banner-section button{
     border-radius: 8px;
     background-color: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
@@ -55,6 +57,24 @@ body{
     margin: 32px 0px;
 
 }
+    */
+.banner-section a{
+    border-radius: 8px;
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px 21px 24px;
+    margin: 32px 0px;
+    text-decoration: none;
+    
+        
+    }
+    .banner-section button{
+        margin-top: 20px;
+    }
+
 /*development section start here*/
 .development-section{
     width: 1140px;
@@ -373,14 +393,14 @@ body{
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
 }
 .support-content{
-    width: 1044px;
-    height: 185px;
+   /* width: 1044px;
+    height: 185px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 26px;
-    padding: 70px 48px 64px 48px;
+    padding: 64px 48px 64px 48px;
     
 }
 .support-content h1{
@@ -389,7 +409,7 @@ body{
     font-size: 32px;
     font-weight: 700;
     text-align: center;
-  margin-top: 40px;
+  /*margin-top: 10px;*/
 
 }
 .support-content p{
