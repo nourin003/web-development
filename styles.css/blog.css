@@ -379,6 +379,7 @@ body{
     align-items: center;
     margin-top: 26px;
     padding: 64px 48px 64px 48px;
+    
 }
 .support-content h1{
     color: rgb(255, 255, 255);
@@ -389,11 +390,16 @@ body{
 
 }
 .support-content p{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255, 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    margin-top: 20px;
+}
+.feedback-containe{
+    margin-top: 30px;
+   
 }
 #feedback-text{
     width: 548px;
@@ -402,14 +408,21 @@ body{
     border-radius: 8px;
     background: rgb(255, 255, 255);
     padding: 19px 20px 19px 20px;
-    
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
 }
 #feedback-submission{
     width: 120px;
     height: 57px;
     border-radius: 8px;
-   border: none;
+    border: none;
     background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
